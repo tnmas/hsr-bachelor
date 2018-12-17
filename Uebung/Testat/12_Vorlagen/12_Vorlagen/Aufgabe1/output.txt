@@ -1,0 +1,2 @@
+Entwickeln Sie ein Programm, das eine Datei (Text oder binär) eins zu eins in eine neue Datei kopiert. 
+Der Name und Pfad der Quell- und Zieldatei soll über die Konsole eingegeben werden.
