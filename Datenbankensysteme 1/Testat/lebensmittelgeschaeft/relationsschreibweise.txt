@@ -1,0 +1,46 @@
+058 570 02 12
+Auf der Mauer Bruno
+
+
+
+
+
+Lebensmittelgeschaeft(
+	Id INTEGER,
+	Name VARCHAR(20) NOT NULL
+)
+
+Person(
+	Id INTEGER,
+	Nachname VARCHAR(20),
+	Vorname VARCHAR(20),
+	Address VARCHAR(20)
+)
+
+Mitarbeiter(
+	Id INTEGER,
+	Anstellungsdatum DATE NOT NULL,
+	Per_id NOT NULL REFERENCES Person,
+	Lmgeschaeft_id NOT NULL REFERENCES Lebensmittelgeschaeft
+)
+
+Produkt(
+	Produktnr INTEGER NOT NULL,
+	Name VARCHAR (20) NOT NULL,
+	Menge FLOAT,
+	Preis FLOAT
+	Lmgeschaeft_id NOT NULL REFERENCES Lebensmittelgeschaeft(Id)
+)
+
+Onlinebestellung(
+	Id INTEGER,
+	Bestelldatum DATE NOT NULL,
+	Produktnr_id NOT NULL REFERENCES Produkt(Produktnr)
+)
+
+Versand(
+	Id INTEGER,
+	Versanddatum DATE NOT NULL,
+	Dauer INTEGER NOT NULL,
+	Onlinebestell_id NOT NULL REFERENCES Onlinebestellung(Id)
+)
