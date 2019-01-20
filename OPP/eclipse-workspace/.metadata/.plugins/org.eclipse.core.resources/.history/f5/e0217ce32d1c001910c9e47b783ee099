@@ -1,0 +1,18 @@
+package collectionsInJava;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+		ProcessedFood processedFood1 = new ProcessedFood("Spaghetti Napoli");
+		BasicFood spaghetti = new BasicFood("Spaghetti", 100);
+		ProcessedFood processedFood2 = new ProcessedFood("Tomatensauce");
+		BasicFood tomate = new BasicFood("Tomate", 10);
+		BasicFood paprika = new BasicFood("Paprika", 12);
+		BasicFood salz = new BasicFood("Salz", 0);
+		BasicFood pfeffer = new BasicFood("Pfeffer", 2);
+		BasicFood wasser = new BasicFood("Wasser", 0);
+		
+		
+	}
+
+}

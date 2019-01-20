@@ -1,0 +1,16 @@
+CREATE TABLE l(a VARCHAR(3), b VARCHAR(3), c VARCHAR(3));
+CREATE TABLE r(c VARCHAR(3), d VARCHAR(3), e VARCHAR(3));
+
+INSERT INTO l
+VALUES('a1', 'b1', 'c1'),
+	('a2', 'b2', 'c2');
+
+INSERT INTO r
+VALUES('c1', 'd1', 'e1'),
+	('c2', 'd2', 'e2');
+	
+	
+--SELECT * FROM l NATURAL JOIN r;
+--SELECT * FROM l LEFT OUTER JOIN r;
+--SELECT * FROM l RIGHT JOIN r;
+--SELECT * FROM l JOIN r;

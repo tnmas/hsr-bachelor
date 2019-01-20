@@ -1,0 +1,13 @@
+package BankManager;
+
+public class BankManager {
+
+	public static void main(String[] args) {
+		SavingsAccount savingAccount = new SavingsAccount();
+		CheckingAccount checkingAccount = new CheckingAccount();
+		CertificateOfDeposit certificateOfDeposit = new CertificateOfDeposit();
+		
+
+	}
+
+}

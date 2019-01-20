@@ -1,3 +1,3 @@
-# hsr-bachelor
-## Uebungen und Testaten
-### Ersten Semester
+# HSR-Bachelor
+## Uebungen und Testaten (Datenbanksystem und OOP)
+### Herbst Semester 2018

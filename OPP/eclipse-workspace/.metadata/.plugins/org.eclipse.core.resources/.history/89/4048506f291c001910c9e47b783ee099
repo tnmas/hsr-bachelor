@@ -1,0 +1,13 @@
+package collectionsInJava;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BasicFood extends Food{
+	public BasicFood(String name) {
+		super(name);
+	}
+
+	private final List<Food> ingredients = new ArrayList<>();
+	
+}

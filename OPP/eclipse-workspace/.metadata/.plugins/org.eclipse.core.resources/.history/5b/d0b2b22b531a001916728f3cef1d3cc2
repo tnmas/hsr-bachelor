@@ -1,0 +1,14 @@
+package compareAndLambda;
+
+
+class Car extends Vehicle {
+	void start() {
+		
+	}
+}
+
+public class Vehicle {
+	void start() {
+		
+	}
+}

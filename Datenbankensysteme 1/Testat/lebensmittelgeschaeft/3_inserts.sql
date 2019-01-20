@@ -9,6 +9,7 @@ VALUES('Eat'),
 	('BritishCornerShop');
 
 --Produkt Inserts
+--COMMENT 'This is a test';
 INSERT INTO produkt(produktnr, produktname, menge, preis, lmgeschaeft_id)
 VALUES(101,'Honey', 3.5, 20.0, 8),
 	(102, 'Rice', 2.0, 3.0, 3),

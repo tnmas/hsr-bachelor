@@ -1,0 +1,20 @@
+package collectionsInJava;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Map<Integer, Student> map = new HashMap<>();
+		Student s1 = new Student("Titi", "Farmer");
+		
+		map.put(101, s1);
+		Student st = map.get(101);
+		for (Student x : map.values()) {
+			System.out.println(x);
+		}
+
+	}
+
+}
