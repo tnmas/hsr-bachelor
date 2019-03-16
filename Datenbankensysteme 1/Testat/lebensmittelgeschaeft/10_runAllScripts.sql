@@ -7,9 +7,6 @@
 \echo
 
 SET client_min_messages = ERROR;
-\set user bibliothek_user 
-\set password '\'user\''
-\set database 'bibliothek'
 \set promptvar ''
 
 \echo -------------------------------------
