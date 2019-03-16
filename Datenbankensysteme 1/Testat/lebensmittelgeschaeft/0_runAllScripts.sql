@@ -7,9 +7,6 @@
 \echo
 
 SET client_min_messages = ERROR;
-\set user tsigu 
-\set password '\'tsigu\''
-\set database 'lmgeschaeft'
 \set promptvar ''
 
 \echo -------------------------------------
