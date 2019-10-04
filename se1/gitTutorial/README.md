@@ -1,1 +1,4 @@
-# SE1 Git-Tutorial
+# Software Engineering 1
+## Object Oriented Design
+## Version Control (Git)
+
