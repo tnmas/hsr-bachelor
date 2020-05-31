@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Schere, Stein, Papier</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+<div class="container">
+    <div class="main" id="show-me-the-list-div">
+        <div id="local-env-div">
+            <button id="local-env-button" type="button" class="change-pointer">Wechsle zu Server</button>
+        </div>
+        <div id="main-player-list-div">
+            <h1>Rangliste</h1>
+            <div id="rang-div" class="rang">
+                <ol id="player-list-ol">
+                    <!-- Here come the list of the players with their scores. -->
+                </ol>
+            </div>
+            <hr>
+            <div class="game">
+                <p>Starten Sie ein Spiel</p>
+                <label for="player">Name:</label>
+                <input class="give-your-name" id="player" type="text" name="playername" required/>
+                <button id="play-button" class="play" type="button">Spiel Starten</button>
+            </div>
+            <span id="no-name-given-id"></span>
+        </div>
+    </div>
+    <div class="playing hidden" id="lets-play-div">
+
+        <p><strong id="name-value-strong"></strong>! Wähle deine Hand!</p>
+        <ul class="game-items" id="items-ul">
+            <!-- Here come the list of the buttons -->
+        </ul>
+        <div class="make-it-center">
+            <p class="centered-text" id="center-vs-p">VS</p>
+            <p class="centered-text hidden" id="center-round-p">Nächste Rounde in <span
+                    id="get-time-in-seconds-span">3</span></p>
+            <input id="tobe-filled-input" type="text" value="?" disabled>
+        </div>
+        <div id="return-back-div">
+            <button id="return-back-button" type="button" class="change-pointer">Zurück zum Ranking</button>
+        </div>
+        <hr>
+        <div class="history">
+            <p class="make-it-center" id="center-history-p">History</p>
+            <table class="make-it-center" id="history-list-table">
+                <thead>
+                <tr>
+                    <th>Resultat</th>
+                    <th>Spieler</th>
+                    <th>Gegner</th>
+                </tr>
+                </thead>
+                <tbody id="history-list-tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script type="module" src="js/local.js"></script>
+</body>
+
+</html>

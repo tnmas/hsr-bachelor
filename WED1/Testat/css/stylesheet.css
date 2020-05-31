@@ -1,0 +1,124 @@
+.container {
+    box-sizing: border-box;
+    margin:25px 20% 25px 20%;
+}
+p {
+    font-size: 20px;
+}
+.give-your-name {
+    padding: 5px;
+}
+
+ol > li {
+    font-weight: bold;
+    font-size: 22px;
+    list-style-type: none;
+}
+.play {
+    background: aqua;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 25px;
+}
+.play:hover {
+    cursor: pointer;
+}
+
+.game-items {
+    display: inline;
+}
+.game-items > li{
+    list-style: none;
+    display: block;
+    float: left;
+}
+
+.change-pointer {
+    padding: 12px;
+    font-size: 18px;
+}
+
+.change-pointer:hover {
+    cursor: pointer;
+}
+
+.make-it-center {
+    margin-left: 10%;
+    margin-top: 40px;
+}
+
+.centered-text {
+    margin-left: 10%;
+}
+
+#center-history-p {
+    margin-left: 20%;
+}
+
+
+td, th {
+    padding-right: 60px;
+}
+table {
+    font-size: 18px;
+}
+tr:nth-of-type(even){
+    background: lightblue;
+}
+#tobe-filled-input {
+    padding: 12px;
+    font-size: 18px;
+}
+#return-back-div {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.shown {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+
+#no-name-given-id {
+    margin-left: 50px;
+    font-size: 12px;
+    color: red;
+}
+.empty-input:focus {
+    border-color: red !important;
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+
+.correct {
+    color: green;
+}
+.equal {
+
+}
+.wrong {
+    color: red;
+}
+
+.active {
+    background: lightskyblue;
+    pointer-events: none;
+}
+
+.inactive {
+    pointer-events: none;
+}
+
+#local-env-button, #server-env-button {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#main-player-list-div {
+    margin-left: 75px;
+}
+
+.mouse-over {
+    color: lightblue;
+}
