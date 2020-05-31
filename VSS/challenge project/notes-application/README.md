@@ -14,7 +14,7 @@ What things you need to use the application in alpine
 
 Clone the App:
     
-    git clone https://gitlab.dev.ifs.hsr.ch/tnebai/wed2-notes-application.git
+    git clone the App.
 
 NodeJS:
 
